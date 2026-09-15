@@ -1,0 +1,1 @@
+# RS School CV Project link (Github Pages): [Open CV](https://ViktoryiaKurs.github.io/rsschool-cv/cv)
