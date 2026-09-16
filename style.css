@@ -11,7 +11,7 @@ body {
 }
 .cv-container {
     max-width: 800px;
-    margin: 40 auto;
+    margin: 40px auto;
     background-color: #e0f066;
     padding: 40px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
@@ -31,8 +31,8 @@ body {
     height: auto;
 }
 .photo {
-    width: 100px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -57,14 +57,13 @@ body {
 }
 .cv-nav a:hover {
     color: #15d12b;
-    transition: color 0.3s ease;
 }
 .info-section {
     display: flex;
     align-items: baseline;
     gap: 15px;
 }
-profession-section {
+.profession-section {
     font-size: 18px;
     color: #6e6d6d;
     font-weight: normal;
