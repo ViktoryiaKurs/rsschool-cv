@@ -3,9 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>CV.Viktoryia.Kurs</title>
+</header>
 <body>
+ <img src="photo.jpg"   alt="photo" width="200" height="200" class="photo">
+<h1 class="name">Viktoryia Kurs</h1>
+<h2 class="profession">Front-end Developer</h2>
+<header>
+    <nav>
+        <ul class="menu">
+            <li><a href="#contact">contact</a></li>
+            <li><a href="#About Me">About Me</a></li>
+            <li><a href="#Technical Skills">Technical Skills</a></li>
+            <li><a href="#Courses">Courses</a></li>
+            <li><a href="#Academic Education">Academic Education</a></li>
+            <li><a href="#Languages">Languages</a></li>
+            <li><a href="#Code Example">Code Example</a></li>
+            <li><a href="#PROFESSIONAL EXPERIENCE">PROFESSIONAL EXPERIENCE</a></li>
+        </ul>
+    </nav>
+<main>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p> contact: Warsaw, Poland | +48 796 011 437 | vikakurs1998@gmail.com </p>
+        <p> https://github.com/ViktoryiaKurs | https://t.me/ViktoryiaKurs | discord: viktoryia.kurs </p>
+    </section>
+    <section id="About Me">
+        <h2>About Me</h2>
+        <p> I am an aspiring software developer currently building a solid foundation in Full Stack JavaScript at RS School. Crucially, I already possess a strong standalone background in Java Core and OOP principles, having successfully completed comprehensive programmatic training. This architectural foundation, combined with my past professional experience in accounting, logistics, and HR, equips me with advanced analytical thinking and a structured approach to engineering.
+
+My goal is to leverage my Java background to master both frontend and backend web technologies. My greatest strength is the ability to rapidly digest complex new domains. I am highly motivated, ready to contribute to real-world tasks, and dedicated to evolving into a versatile Full Stack professional. </p>
+    </section>
+    <section id="Technical Skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Programming Languages:** Java (Java Core, OOP principles)</li>
+            <li>Web Technologies: HTML5, CSS3, Markdown</li>
+            <li>Tools & Environment: Git, GitHub, Visual Studio Code, netbeans, IntelliJ IDEA.</li>
+        </ul>
+    </section>
+    <section id="Courses">
+        <h2>Courses</h2>
+        <ul>
+            <li>Java for Beginners: From Scratch to Oracle Certification | Instructor: Zaur Tregulov (Udemy)</li>
+            <li>JAVA – Earn Your Black Belt! | Instructor: Zaur Tregulov (Udemy)</li>
+            <li>A Gentle Introduction to Java: A Beginner's Course | Stepik Platform</li>
+            <li>A Gentle Introduction to Java: A Beginner's Course | Stepik Platform</li>
+            <li>Full-Stack JavaScript Q3** | *RS School (In Progress, 2026)</li>
+        </ul>
+    </section>
+    <section id="Academic Education">   
+        <h2>Academic Education</h2>
+        <p>Bobruisk Agrarian and Economic College</p>
+  <p>Specialty: Accounting, Analysis and Audit</p>
+        <p>Degree: Associate Degree / Professional Diploma</p>
+    </section>  
+    <section id="Languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>Russian: Native / C2</li>
+            <li>English: Elementary / A2 (Actively improving)</li>
+            <li>Belarusian: Native / C1</li>
+            <li>Polish:** Elementary / A2 (Actively improving)</li>
+        </ul>  
+    </section>
+    <section id="Code Example">
+        <h2>Code Example</h2>
+        <pre><code>
+class Student implements Comparable {
+private int id;
+private String name;
+private String surname;
+Student (int id,String name, String surname){
+this.id =id;
+this.name =name;
+this.surname=surname;
+}
+
+@Override
+public int compareTo(Student otherStudent) {
+    if (this.id < otherStudent.id) {
+return -1;
+} else if (this.id > otherStudent.id) {
+return 1;
+} else {
+return 0;
+        }
+    }
+}
+
+Class Main {
+	public static void main(String[] args) {
+		ArrayList<Student> students = new ArrayList<>();
+		
+		students.add(new Student(1, “Vika”, “Carter”));
+		students.add(new Student(5, “Vlad”, “Beginer”));
+		students.add(new Student(3, “Vika”, “Kurs”));
+		Collections.sort (students);
+
+	}
+}
+
+class CompareByName implements Comparator {
+@Override
+public int compare(Student student1,Student student2) {
+	int res = student1.name.compareTo(student2.name);
+if(res == 0) {
+	res = student.surname.compareTo(student2.surname);
+}
+return res;	
+    }
+}
+
+        </code></pre>
+    </section>
+    <section id="PROFESSIONAL EXPERIENCE">
+        <h2>PROFESSIONAL EXPERIENCE</h2>
+        <ul>
+            <li>Customer Service Specialist | BądżTu,Warsaw, Poland</li>
+            <li>November 2023 - present</li>
+            <li>Freight Forwarder | BELTS, Warsaw, Poland</li>
+            <li>August 2021 – November 2023</li>
+            <li>Administrative Assistant | Transconsult Service, Brest, Belarus</li>
+            <li>October 2019 – August 2021</li>
+            <li>HR Inspector | OZTM S.A., Mogilev, Belarus</li>
+            <li>February 2018 – August 2019</li>
+            <li>Accountant | Machowo Sp. z o.o., Mogilev, Belarus</li>
+            <li>August 2017 – February 2018</li>
+        </ul>
+    </section>
     
+</main>
+<footer class="cv-footer">
+    <img src="rs-school-logo.svg"   alt="photo" width="200" height="200" class="logo">
+    <p><a href="https://rs.school/courses/javascript" target="_blank">JavaScript Course</a></p>
+    <p><a href="https://github.com/ViktoryiaKurs" target="_blank">GitHub Profile</a></p>
+    <p>© 2026 Viktoryia Kurs. All rights reserved.</p>
+</footer>
 </body>
 </html>
