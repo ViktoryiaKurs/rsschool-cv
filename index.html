@@ -7,32 +7,33 @@
     <link rel="stylesheet" href="style.css">
     </head>
 <body>
-    <header>
+    <div class="cv-container"></div>
+         <header class="header"></header>
  <img src="photo.jpg"   alt="photo" width="200" height="200" class="photo">
  <div class="contact-info">
 <h1 class="name">Viktoryia Kurs</h1>
 <span class="profession">Front-end Developer</span>
 </div>
-    <nav>
+    <nav class="cv-nav">
         <ul class="menu">
-            <li><a href="#contact">contact</a></li>
+            <li><a href="#Contact">Contact</a></li>
             <li><a href="#About Me">About Me</a></li>
             <li><a href="#Technical Skills">Technical Skills</a></li>
             <li><a href="#Courses">Courses</a></li>
             <li><a href="#Academic Education">Academic Education</a></li>
             <li><a href="#Languages">Languages</a></li>
             <li><a href="#Code Example">Code Example</a></li>
-            <li><a href="#PROFESSIONAL EXPERIENCE">PROFESSIONAL EXPERIENCE</a></li>
+            <li><a href="#Professional Experience">Professional Experience</a></li>
         </ul>
     </nav>
     </header>
 <main>
-    <section id="contact">
+    <section id="Contact">
         <h2>Contact</h2>
         <p> contact: Warsaw, Poland | +48 796 011 437 | vikakurs1998@gmail.com </p>
         <p> https://github.com/ViktoryiaKurs | https://t.me/ViktoryiaKurs | discord: viktoryia.kurs </p>
     </section>
-    <section id="about -me">
+    <section id="About Me">
         <h2>About Me</h2>
         <p> I am an aspiring software developer currently building a solid foundation in Full Stack JavaScript at RS School. Crucially, I already possess a strong standalone background in Java Core and OOP principles, having successfully completed comprehensive programmatic training. This architectural foundation, combined with my past professional experience in accounting, logistics, and HR, equips me with advanced analytical thinking and a structured approach to engineering.
 
@@ -41,7 +42,7 @@ My goal is to leverage my Java background to master both frontend and backend we
     <section id="Technical Skills">
         <h2>Technical Skills</h2>
         <ul>
-            <li>Programming Languages:** Java (Java Core, OOP principles)</li>
+            <li>Programming Languages: Java (Java Core, OOP principles)</li>
             <li>Web Technologies: HTML5, CSS3, Markdown</li>
             <li>Tools & Environment: Git, GitHub, Visual Studio Code, netbeans, IntelliJ IDEA.</li>
         </ul>
@@ -75,14 +76,14 @@ My goal is to leverage my Java background to master both frontend and backend we
         <h2>Code Example</h2>
         <pre><code>
 class Student implements Comparable {
-private int id;
-private String name;
-private String surname;
-Student (int id,String name, String surname){
-this.id =id;
-this.name =name;
-this.surname=surname;
-}
+    private int id;
+    private String name;
+    private String surname;
+        Student (int id,String name, String surname){
+            this.id =id;
+            this.name =name;
+            this.surname=surname;
+                }
 
 @Override
 public int compareTo(Student otherStudent) {
@@ -96,7 +97,7 @@ return 0;
     }
 }
 
-Class Main {
+class Main {
 	public static void main(String[] args) {
 		ArrayList<Student> students = new ArrayList<>();
 		
@@ -121,8 +122,8 @@ return res;
 
         </code></pre>
     </section>
-    <section id="PROFESSIONAL EXPERIENCE">
-        <h2>PROFESSIONAL EXPERIENCE</h2>
+    <section id="Professional Experience">
+        <h2>Professional Experience</h2>
         <ul>
             <li>Customer Service Specialist | BądżTu,Warsaw, Poland</li>
             <li>November 2023 - present</li>
@@ -144,5 +145,6 @@ return res;
     <p><a href="https://github.com/ViktoryiaKurs" target="_blank">GitHub Profile</a></p>
     <p>© 2026 Viktoryia Kurs. All rights reserved.</p>
 </footer>
+</div>
 </body>
 </html>

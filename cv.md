@@ -1,5 +1,5 @@
 # **Viktoryia Kurs**
-###### Warsaw, Poland | +48 796 011 437 | vikakurs1998@gmail.com ######
+###### contact: Warsaw, Poland | +48 796 011 437 | vikakurs1998@gmail.com ######
 ######  https://github.com/ViktoryiaKurs | https://t.me/ViktoryiaKurs | discord: viktoryia.kurs ######
 ##  About Me
 I am an aspiring software developer currently building a solid foundation in Full Stack JavaScript at RS School. Crucially, I already possess a strong standalone background in **Java Core and OOP principles**, having successfully completed comprehensive programmatic training. This architectural foundation, combined with my past professional experience in accounting, logistics, and HR, equips me with advanced analytical thinking and a structured approach to engineering.
